@@ -5,7 +5,7 @@ const verifyToken = require("../middleware/verifyToken");
 
 function restaurantRoutes(app){
     // read
-    app.get('/api/restaurants', verifyToken, fetchRestaurant )
+    app.get('/api/restaurants', fetchRestaurant )
     // write
     app.post('/api/restaurant', verifyToken, createRestaurant )
     // update
