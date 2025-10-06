@@ -1,6 +1,6 @@
 // logics of API
 
-const RestaurantModel = require("../models/restaurant.model")
+const RestaurantModel = require("../models/Restaurant.model")
 
 async function fetchRestaurant(req, res){
     try{
